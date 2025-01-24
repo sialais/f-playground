@@ -1,0 +1,21 @@
+@tailwind components;
+
+@layer components {
+    .header-cleared {
+        @apply bg-transparent backdrop-blur-none shadow-none;
+    }
+    .header-blurred {
+        @apply bg-white/50 shadow-md border-b-gray-200;
+    }
+    .header-hidden {
+        @apply -top-full;
+    }
+}
+
+@supports(backdrop-filter: blur) {
+    @layer components {
+        .header-blurred {
+            @apply bg-white/10 backdrop-blur-[4px];
+        }
+    }
+}
