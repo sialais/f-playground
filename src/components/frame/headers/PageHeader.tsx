@@ -56,4 +56,4 @@ const PageHeader = (props: { height?: string | number, className?: string | unde
   );
 }
 
-export default PageHeader
+export { PageHeader }
