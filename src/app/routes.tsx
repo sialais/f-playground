@@ -1,14 +1,15 @@
 export default [
     {
-        "name": "HOME",
+        "name": "Home",
         "href": "/"
-    },
-    {
-        "name": "PAGE1",
-        "href": "/pages/page1"
-    },
-    {
-        "name": "PAGE2",
-        "href": "/pages/page2"
-    },
+    }, {
+        "name": "Blog",
+        "href": "/blog"
+    }, {
+        "name": "Lab",
+        "href": "/lab"
+    }, {
+        "name": "Admin",
+        "href": "/admin"
+    }
 ];
